@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./utils/ignore-warnings"
 import codePush from "react-native-code-push";
 import { initialWindowMetrics, SafeAreaProvider } from 'react-native-safe-area-context';
-import SplashScreen from 'react-native-splash-screen';
+// import SplashScreen from 'react-native-splash-screen';
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { Provider } from 'react-redux';
 
@@ -19,9 +19,9 @@ let codePushOptions = {
 let App = () => {
 
   useEffect(() => {
-    (async () => {
-      SplashScreen.hide();
-    })();
+    // (async () => {
+    //   SplashScreen.hide();
+    // })();
   }, [])
 
   

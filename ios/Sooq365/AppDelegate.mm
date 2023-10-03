@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
 // #import <Firebase.h>
-#import "RNSplashScreen.h"  // here
+// #import "RNSplashScreen.h"  // here
 #import <CodePush/CodePush.h>
 
 #import <React/RCTBundleURLProvider.h>
@@ -34,7 +34,7 @@
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
   bool didFinish=[super application:application didFinishLaunchingWithOptions:launchOptions];
-  [RNSplashScreen show];  // here
+  // [RNSplashScreen show];  // here
   // [FBSDKApplicationDelegate.sharedInstance initializeSDK];
   return didFinish;
 }

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Sooq365</string>
+    <string name="app_name">RN</string>
     <string moduleConfig="true" name="CodePushDeploymentKey">J0-HVEDppskf8_8SjINGlB0A_1GE4-fmR6sij</string>
-    <string name="facebook_app_id">1034874407950462</string>
-    <string name="facebook_client_token">7f282094cd70b5126aef8e373239d171</string>
+    <string name="facebook_app_id">103487477882335653</string>
+    <string name="facebook_client_token">9gdyy66gd777y8h896fdd78t1</string>
 </resources>
