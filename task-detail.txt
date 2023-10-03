@@ -1,0 +1,81 @@
+github repository link: https://github.com/Mustansar786/react-native-swapi-api-task
+
+I shared the github repository link with you. you have to follow these step 
+for run the code on emulator or simulator. The steps are the following below:
+
+1. clone the project first, through below command:
+
+git clone https://github.com/Mustansar786/react-native-swapi-api-task.git
+
+2. Use the second command for installing paakages or get the node_modules folder
+ 
+ for windows:
+ => npm i
+ for macOS:
+ => yarn add flat
+
+ 3. After that id you want to run the project then run these following commands:
+  for android: 
+  => npm run android
+  for iOS:
+  => npm run ios
+
+  After following these above steps, i hope you can run my tak and see the output.
+  => I will aslo share the output screenrecording with you.
+  => Films listing are showing according to your requirments on ethe base of most
+  recent movie. Recent movie will comes first in list.
+  => Starships listing are showing on the base of shortest length. Shortest length
+  will comes first in listing.
+
+
+
+  ==================================================================================
+  ==================================================================================
+  ========********************** Project Architecture ********************==========
+
+
+  All the main code in in /src/ folder. inside the souce folder, i created many folders 
+  to show you the code pattern that i followed. 
+
+  => Fist Folder is /api/ . Inside that folder i make the global and one time use of
+  axios file. i didn't call axios again and again in project. i set the base url and
+  endpoints of our task.
+
+  => Second Folder is /assets/. Inside this folder, i put the task images files, icons
+  files and fonts files. i just created this folder to show you that i am following this 
+  achitecture.
+
+  => Third Folder is /globals/. Inside this folder, i put the constants variables and used 
+  for images path, font setup and theme color setup.
+
+  => Fouth Folder is /hooks/. Inside this folder i created some global hooks that we can use in
+  our whole project. such as useDebounce, useFetch, useAppOpening, useFirstTimeAppOpen etc.
+
+  => Fifth Folder is /stores/. Inside this folder, i set the all redux, like  all actions, all 
+  reducers, rootReducer and store.
+
+  => Sixth Folder is /types/. Inside this folder i managed the types of some components. I am 
+  using the same techniques in other clients projects.
+
+  => Seventh Folder is /utils/. Inside this folder, we can manage push notification, global error,
+  async storage, permissions and many more global method. I just creat this folder to show you 
+  the architecture.
+
+  => Eighth Folder is /View/. This is our main folder. This folder we are using for UI of the app.
+  I create 3 more different folder inside this /View/ folder.
+
+        -> first folder is /components/. In this folder we can make the reuseable components and 
+        some main seperate components.
+
+        ->second folder is /nagigation/. Inside this folder i setup all the navigation.
+
+        -> third folder is /screens/. Indside this folder we can make our main screen components
+        and child screens component that we have to pass to navigation. We can make seperate folder
+        of each main screen and inside that folder we have to create the child screens components 
+        and screen.
+
+This is the architecture and coding pattern that i followed.
+
+Thank you!
+
+
