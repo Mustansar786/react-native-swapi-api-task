@@ -1,0 +1,13 @@
+current directory: /Users/ahmad/Documents/sooq365-app/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+/Users/ahmad/.rvm/rubies/ruby-2.7.5/bin/ruby -I /Users/ahmad/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20230924-68279-el8k2x.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ahmad/Documents/sooq365-app/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/ahmad/Documents/sooq365-app/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/ahmad/Documents/sooq365-app/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" install

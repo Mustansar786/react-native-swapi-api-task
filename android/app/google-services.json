@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "186818364377",
+    "project_id": "sooq365-1a47a",
+    "storage_bucket": "sooq365-1a47a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186818364377:android:c2797a3d6782bb36ac4fc8",
+        "android_client_info": {
+          "package_name": "com.sooq365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186818364377-nkoflhh4q1jogt74s8v30v8c3f4bmcre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3G0QgVdpUQUZuCfzByiYH4dzgQFP_0XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186818364377-nkoflhh4q1jogt74s8v30v8c3f4bmcre.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186818364377-ui8gtljt5vlqn9f0cethfss0d0re48k7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sooq365.sooq365"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
