@@ -59,6 +59,36 @@ export const DetailScreen = (props: TabScreenProps<'DetailScreen'>) => {
             disabled: true,
             handleAction: () => { }
         },
+        {
+            optionName: "Starship Class",
+            value: item?.starship_class,
+            disabled: true,
+            handleAction: () => { }
+        },
+        {
+            optionName: "Model",
+            value: item?.model,
+            disabled: true,
+            handleAction: () => { }
+        },
+        {
+            optionName: "Cargo Capacity",
+            value: item?.cargo_capacity,
+            disabled: true,
+            handleAction: () => { }
+        },
+        {
+            optionName: "Consumables",
+            value: item?.consumables,
+            disabled: true,
+            handleAction: () => { }
+        },
+        {
+            optionName: "MGLT",
+            value: item?.MGLT,
+            disabled: true,
+            handleAction: () => { }
+        },
     ]
 
     
